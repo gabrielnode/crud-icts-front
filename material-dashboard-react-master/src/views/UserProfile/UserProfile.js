@@ -63,7 +63,7 @@ export default function UserProfile() {
 
   useEffect( () => {
     getProdutos()
-  },[userId])
+  },[userId,produtos])
 //   function cadastrarProduto(data){
 
 //       console.log('produto:',data)
